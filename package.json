@@ -1,0 +1,30 @@
+{
+  "name": "cryptum-demo-quickstart",
+  "version": "1.0.0",
+  "description": "A demonstratior for a simple use to Crytum SDK",
+  "main": "index.ts",
+  "author": "JC Bombardelli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "cryptum-demo-quickstart"
+  },
+  "keywords": [
+    "blockchain",
+    "sdk",
+    "node",
+    "typescript",
+    "crypto",
+    "web3"
+  ],
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "cryptum-sdk": "^0.0.43"
+  },
+  "devDependencies": {
+    "node-ts": "^5.1.2",
+    "typescript": "^4.9.4"
+  }
+}
